@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfalign | Hardware-Aware AI Platform Case Study</title>
+    <meta name="description"
+        content="Case study: Building a hardware-aware AI performance platform from 0 to adoption.">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="../index.html#home" class="logo">Guru.</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html#home" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../index.html#projects" class="nav-link active">Projects</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="section">
+        <div class="container project-header" data-aos>
+            <div class="project-tags" style="justify-content: center; margin-bottom: 1.5rem;">
+                <span class="tag">AI/ML</span>
+                <span class="tag">Infrastructure</span>
+                <span class="tag">Platform Strategy</span>
+            </div>
+            <h1 class="case-study-hero-headline">Perfalign: Building a Hardware-Aware AI Performance Platform from 0 →
+                Adoption</h1>
+            <p class="case-study-hero-subtext">Establishing a unified, extensible platform for AI model performance
+                analysis and deployment.</p>
+        </div>
+    </section>
+
+    <!-- Case Study Content -->
+    <section class="section">
+        <div class="case-study-container">
+            <!-- Main Content Column -->
+            <div class="case-study-main">
+
+                <!-- Overview -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Overview</h3>
+                    <div class="cs-card">
+                        <p>Perfalign is a modular AI model performance analysis and inference deployment platform built
+                            at MulticoreWare. I led Perfalign from initial opportunity discovery through product
+                            strategy, execution, and customer adoption—establishing it as a reusable platform embedded
+                            within semiconductor SDKs and used by OEMs and AI teams to benchmark and optimize workloads
+                            across hardware architectures.</p>
+                    </div>
+                </div>
+
+                <!-- Context -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Context</h3>
+                    <div class="grid-2">
+                        <div class="cs-card">
+                            <h4>Organization Model</h4>
+                            <p>MulticoreWare operated in a matrix structure: Technology Units for engineering and
+                                Business Units for customer/BD. No dedicated product ops or marketing meant Perfalign
+                                had to be built end-to-end by aligning teams without direct authority.</p>
+                        </div>
+                        <div class="cs-card">
+                            <h4>The Mandate</h4>
+                            <p>As the first Product Manager, my goal was to establish product thinking and build
+                                reusable products for both customers and internal engineering teams.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem Discovery -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Problem Discovery</h3>
+                    <div class="cs-card" style="margin-bottom: 1.5rem;">
+                        <p>I began with extensive discovery involving interviews and surveys with <strong>~300 internal
+                                developers</strong> and <strong>~100 external partners</strong>. This surfaced three
+                            systemic problems:</p>
+                    </div>
+                    <div class="grid-3">
+                        <div class="cs-card">
+                            <h4>Visualization Gap</h4>
+                            <p>Model visualization tools did not scale to modern LLMs and transformer architectures.</p>
+                        </div>
+                        <div class="cs-card">
+                            <h4>Fragmented Tools</h4>
+                            <p>Hardware-specific tools were fragmented, inconsistent, or vendor-locked.</p>
+                        </div>
+                        <div class="cs-card">
+                            <h4>Manual Workflows</h4>
+                            <p>Optimization and profiling were manual, spread across multiple tools, and hard to reason
+                                about end-to-end.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Strategy & Decisions -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Strategy & Key Decisions</h3>
+                    <div class="cs-card" style="margin-bottom: 1.5rem; background: rgba(253, 111, 0, 0.05);">
+                        <p>The opportunity was not another point tool—but a unified, extensible platform that could
+                            adapt as models and hardware evolved.</p>
+                    </div>
+                    <div class="grid-2">
+                        <div class="cs-card">
+                            <h4>Modular Architecture</h4>
+                            <p>Intentionally separated core orchestration, hardware-specific extensions, and analysis
+                                workflows.</p>
+                        </div>
+                        <div class="cs-card">
+                            <h4>Build-vs-Adopt</h4>
+                            <p>Integrated Google’s Model Explorer (Apache-licensed) rather than duplicating work,
+                                focusing investment on durable differentiation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Execution & Operating Model -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Execution & Operating Model</h3>
+                    <div class="grid-2">
+                        <div class="cs-card">
+                            <h4>Clarity & Ownership</h4>
+                            <p>Established a customized product lifecycle and RASCI model. Authored clear PRDs for each
+                                module.</p>
+                        </div>
+                        <div class="cs-card">
+                            <h4>Multi-Layered Roadmaps</h4>
+                            <p>Tailored roadmaps for executives (strategy), GTM teams (sales), and engineering
+                                (modules).</p>
+                        </div>
+                    </div>
+                    <div class="cs-card" style="margin-top: 1.5rem;">
+                        <h4>Execution Cadence</h4>
+                        <ul style="margin: 0; padding-left: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted);">
+                            <li>Daily scrums and sprint rituals with developers</li>
+                            <li>Weekly automated status updates to executives</li>
+                            <li>Monthly exec-level product updates</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Outcomes & Impact -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Success Metrics & Impact</h3>
+                    <div class="metrics-list">
+                        <div class="metric-row">
+                            <div class="metric-info">
+                                <h4>Commercial Adoption</h4>
+                                <p>Progressed from concept to active integration in multiple semiconductor SDKs</p>
+                            </div>
+                            <div class="metric-stat">
+                                <span class="stat-trend trend-up">↑ High</span>
+                            </div>
+                        </div>
+                        <div class="metric-row">
+                            <div class="metric-info">
+                                <h4>Lead Generation</h4>
+                                <p>4-week GTM campaign results</p>
+                            </div>
+                            <div class="metric-stat">
+                                <span class="stat-trend">50+ Leads</span>
+                            </div>
+                        </div>
+                        <div class="metric-row">
+                            <div class="metric-info">
+                                <h4>Internal Efficiency</h4>
+                                <p>Measurable productivity gains for internal AI teams</p>
+                            </div>
+                            <div class="metric-stat">
+                                <span class="stat-trend trend-up">↑ Higher</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outcome Bullet Points -->
+                <div class="cs-section" data-aos>
+                    <h3 class="cs-section-title">Key Learnings</h3>
+                    <div class="cs-card">
+                        <ul style="margin: 0; padding-left: 1.5rem;">
+                            <li style="color: var(--color-text-muted); margin-bottom: 0.75rem;"><strong>Matrix
+                                    Alignment:</strong> Influencing without authority requires hyper-transparency and
+                                structured rituals.</li>
+                            <li style="color: var(--color-text-muted); margin-bottom: 0.75rem;"><strong>Strategic
+                                    Adoption:</strong> Leveraging open-source for non-core features accelerates GTM.
+                            </li>
+                            <li style="color: var(--color-text-muted);"><strong>Persona Diversity:</strong> A platform
+                                must serve semiconductor vendors, OEMs, and developers equally.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">
+                    <a href="../index.html#projects" class="btn btn-secondary">&larr; Back to Projects</a>
+                </div>
+
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="case-study-sidebar">
+                <div class="sidebar-box">
+                    <h3>My Role & Scope</h3>
+                    <ul class="sidebar-list">
+                        <li>Product Discovery & Opportunity Definition</li>
+                        <li>Platform Strategy & Architecture Decisions</li>
+                        <li>Cross-team Execution (Matrix)</li>
+                        <li>PRDs & Roadmap Ownership</li>
+                        <li>Customer Enablement & GTM</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/guru-narayan-c/" target="_blank">LinkedIn</a>
+                <a href="mailto:gurunarayanc100@gmail.com">Email</a>
+            </div>
+            <p>&copy; 2024 Guru Narayan C. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
